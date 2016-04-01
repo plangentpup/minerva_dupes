@@ -1,7 +1,7 @@
 
 from fuzzywuzzy import fuzz
 
-with open('distinct.txt') as f:
+with open('post_distinct.txt') as f:
 	groups = f.read().splitlines()
 
 matches = {}
@@ -14,7 +14,7 @@ for i in range(l):
 	while j < l:
 		y = groups[j]
 		ratio = fuzz.ratio(x, y)
-		if ratio > 70:
+		if ratio > 80:
 			if not x in matches:
 				matches[x] = []
 			matches[x].append((y, ratio))

@@ -1,0 +1,42 @@
+      
+        update clean set group1 = 'Eritrean National Salvation Front (ENSF)' where group1 = 'National Salvation Front';
+        update clean set group2 = 'Eritrean National Salvation Front (ENSF)' where group2 = 'National Salvation Front';
+
+        update clean set group1 = 'Alliance of Democratic Forces for the Liberation of Congo' where group1 = 'Democratic Forces for the Liberation of Congo';
+        update clean set group2 = 'Alliance of Democratic Forces for the Liberation of Congo' where group2 = 'Democratic Forces for the Liberation of Congo';
+
+        update clean set group1 = 'Turkish Communist Workers Party' where group1 = 'Turkish Communist Workers Movement';
+        update clean set group2 = 'Turkish Communist Workers Party' where group2 = 'Turkish Communist Workers Movement';
+   
+        update clean set group1 = 'Caucasus Emirate' where group1 = 'Caucus Emirate';
+        update clean set group2 = 'Caucasus Emirate' where group2 = 'Caucus Emirate';
+  
+        update clean set group1 = 'National Liberation Army (NLA) (Macedonia)' where group1 = 'National Liberation Army';
+        update clean set group2 = 'National Liberation Army (NLA) (Macedonia)' where group2 = 'National Liberation Army';
+
+        update clean set group1 = 'Revolutionary People\'s Liberation Party Front' where group1 = 'Revolutionary People\'s Liberation Party-Front';
+        update clean set group2 = 'Revolutionary People\'s Liberation Party Front' where group2 = 'Revolutionary People\'s Liberation Party-Front';
+    
+        update clean set group1 = 'Garo National Liberation Army (GNLA)' where group1 = 'Garo National Liberation Army';
+        update clean set group2 = 'Garo National Liberation Army (GNLA)' where group2 = 'Garo National Liberation Army';
+    
+
+*BLANK GROUPS**
+update clean set group1=' ' where redcap_id = 90060007C
+
+DELETE -- 
+
+# where redcap_id = 8.02E+83
+# where redcap_id = 8.02E+84
+# where redcap_id = 8.02E+85
+# where redcap_id = 8.02E+86
+
+DELETE - 
+
+where 
+# redcap_id = 90030408B
+# redcap_id = 90031598A
+# redcap_id = 90031598B
+# redcap_id = 90031598C
+# redcap_id = 90031598D
+# redcap_id = 90031598E
